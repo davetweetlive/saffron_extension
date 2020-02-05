@@ -1,4 +1,4 @@
-console.log("Saffron Coders!")
+console.log("Saffron Coders new!")
 
 let paragraphs = document.getElementsByTagName("p")
 for(elt of paragraphs){
