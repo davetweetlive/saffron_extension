@@ -7,4 +7,11 @@ for(elt of paragraphs){
 
 
 let videoFiles = document.getElementsByTagName('video');
-console.log(videoFiles);
+
+
+
+window.setInterval(function(){
+    for(let i=0; i<videoFiles.length; i++){
+        console.log(videoFiles[i].src);
+    }
+}, 5000);
